@@ -38,6 +38,7 @@ product_type = st.selectbox(
         "Others",
     ],
 )
+
 mrp = st.number_input("MRP (in ₹)", min_value=0.0, max_value=300.0, step=0.1)
 outlet_age = st.number_input("Outlet Age (in years)", min_value=0, max_value=50)
 
